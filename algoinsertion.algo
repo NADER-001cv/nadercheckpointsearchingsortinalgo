@@ -1,0 +1,21 @@
+
+ALGORITHM exercice
+VAR
+    i,j,k:INteger ;
+    var arr : ARRAY_OF INTEGER[];
+BEGIN
+    
+    FOR i FROM 1 TO arr.length STEP   DO
+    k:=arr[i];
+    j:= i-1
+        WHILE (j>=0  && k > k) DO
+            arr[j+1] = arr[j];
+            j--;
+        END_WHILE
+           arr[j+1] = k ; 
+
+
+
+
+    END_FOR
+END
